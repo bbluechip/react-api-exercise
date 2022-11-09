@@ -26,7 +26,7 @@ async function getData(userId) {
     users.posts = posts;
     return users;
   } catch (e) {
-    clg(e);
+    console.log(e);
   }
 }
 
